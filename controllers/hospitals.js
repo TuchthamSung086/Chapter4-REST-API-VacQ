@@ -21,7 +21,7 @@ exports.createHospital = (req, res, next) => {
 
 //@desc     Update hospital
 //@route    PUT /api/v1/hospitals/:id
-//access    Private
+//@access    Private
 exports.updateHospital = (req, res, next) => {
     res.status(200).json({ success: true, msg: `Update hospital ${req.params.id}` });
 };
